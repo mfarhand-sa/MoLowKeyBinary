@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.0
 import PackageDescription
 
 let package = Package(
@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MoLowKey",
-            url: "https://github.com/mfarhand-sa/MoLowKeyBinary/releases/download/1.0.1/MoLowKey.xcframework.zip",
+            url: "https://github.com/mfarhand-sa/MoLowKeyBinary/releases/download/1.0.2/MoLowKey.xcframework.zip",
             checksum: "e190cff633c6fac504b702c387030b8cc183927f8716c3a584f2ac6368132b2a"
         )
     ]
